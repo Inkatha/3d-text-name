@@ -27,7 +27,7 @@ const matcapTexture = textureLoader.load("/textures/matcaps/9.png");
  */
 const fontLoader = new FontLoader();
 fontLoader.load("/fonts/helvetiker_regular.typeface.json", (font) => {
-  const textGeometry = new TextGeometry("Malik Inkatha", {
+  const textGeometry = new TextGeometry("I Love You!", {
     font,
     size: 0.5,
     height: 0.2,
