@@ -20,14 +20,14 @@ const scene = new THREE.Scene();
  * Textures
  */
 const textureLoader = new THREE.TextureLoader();
-const matcapTexture = textureLoader.load("/textures/matcaps/9.png");
+const matcapTexture = textureLoader.load("/textures/matcaps/8.png");
 
 /*
  * Fonts
  */
 const fontLoader = new FontLoader();
 fontLoader.load("/fonts/helvetiker_regular.typeface.json", (font) => {
-  const textGeometry = new TextGeometry("I Love You!", {
+  const textGeometry = new TextGeometry("Did You Code Today?", {
     font,
     size: 0.5,
     height: 0.2,
